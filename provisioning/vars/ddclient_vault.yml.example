@@ -2,4 +2,7 @@
 # ddclient vault vars
 # Rename me without the .example
 # Encrypt me with ansible-vault encrypt filename
-ddclient_password: "'supersecretpassword!'"
+ddclient_server: "dyn.dns.he.net"
+ddclient_login: "{{ ansible_fqdn }}"
+ddclient_password: "supersecretpassword!"
+ddclient_subdomain: "{{ ansible_fqdn }}"
