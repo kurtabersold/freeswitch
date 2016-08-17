@@ -1,0 +1,20 @@
+---
+
+# from ansible galaxy
+- src: jgrowl.ddclient
+
+# from github
+- src: https://github.com/kurtabersold/ansible-letsencrypt.git
+  version: master
+  name: kurtabersold.letsencrypt
+
+# from github
+#- src: https://github.com/kurtabersold/freeswitch.git
+#  version: master
+#  name: kurtabersold.freeswitch
+
+# from github
+#- src: https://github.com/kurtabersold/freeswitch-config.git
+#  version: master
+#  name: kurtabersold.freeswitch-config
+
