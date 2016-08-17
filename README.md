@@ -18,7 +18,7 @@ If you don't already have vagrant and ansible installed, do that.
 
 ## Install Role Dependencies
 
-`ansible-galaxy install -r install_roles.yml`
+`ansible-galaxy install -r provisioning/install_roles.yml`
 
 
 ## Override Ansible variables
