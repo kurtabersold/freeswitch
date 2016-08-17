@@ -1,0 +1,5 @@
+---
+# ddclient vault vars
+# Rename me without the .example
+# Encrypt me with ansible-vault encrypt filename
+ddclient_password: "'supersecretpassword!'"

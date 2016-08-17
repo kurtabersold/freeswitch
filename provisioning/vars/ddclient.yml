@@ -1,0 +1,10 @@
+---
+# This configuration is tested with Hurricane Electric Dynamic DNS
+ddclient_ssl: "no" # TODO SSL
+ddclient_protocol: "dyndns2"
+ddclient_use: "if, if=eth0"
+ddclient_server: "dyn.dns.he.net"
+ddclient_login: "{{ ansible_fqdn }}"
+ddclient_password: "ddclient_vault_{{ ddclient_password  }}"
+ddclient_subdomain: "{{ ansible_fqdn }}"     # For example mysubdomain.example.com
+
