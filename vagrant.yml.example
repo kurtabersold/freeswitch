@@ -1,0 +1,11 @@
+---
+config:
+    vm:
+        hostname: 'freeswitch.mydomain.tld'
+
+provider:
+    token: ''
+    image: 'debian-8-x64'
+    region: 'sfo2'
+    size: '512mb'
+
