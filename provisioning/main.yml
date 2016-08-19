@@ -8,12 +8,12 @@
   vars_files:
     - vars/ddclient.yml
     - vars/ddclient_vault.yml
-#    - vars/freeswitch.yml
-#    - vars/freeswitch_vault.yml
+    - vars/freeswitch.yml
+    - vars/freeswitch_vault.yml
 
   roles:
     - { role: jgrowl.ddclient }
     - { role: kurtabersold.letsencrypt }
-#    - { role: kurtabersold.freeswitch }
+    - { role: kurtabersold.freeswitch }
 #    - { role: freeswitch, tags: [ 'build' ] } # Update with git src
-#    - { role: kurtabersold.freeswitch-config }
+    - { role: kurtabersold.freeswitch-config }

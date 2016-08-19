@@ -1,0 +1,21 @@
+---
+
+# Use Flowroute at a SIP gateway
+# https://freeswitch.org/confluence/pages/viewpage.action?pageId=2883692
+# https://support.flowroute.com/customer/en/portal/articles/2205573-freeswitch---add-flowroute-as-sip-gateway
+
+credentials:
+  default:
+    password: "freeswitch_vault_{{ credentials.default.password }}"
+
+gateway:
+  flowroute:
+    auth_username: "freeswitch_vault_{{ gateway.flowroute.auth_username  }}"
+    password: "freeswitch_vault_{{ gateway.flowroute.password  }}"
+    proxy: "freeswitch_vault_{{ gateway.flowroute.proxy  }}"
+
+inbound_did:
+  flowroute:
+    did01:
+      number: "freeswitch_vault_{{ inbound_did.flowroute.did01.number }}"
+      extension: "freeswitch_vault_{{ inbound_did.flowroute.did01.extension }}"

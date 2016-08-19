@@ -9,12 +9,12 @@
   name: kurtabersold.letsencrypt
 
 # from github
-#- src: https://github.com/kurtabersold/freeswitch.git
-#  version: master
-#  name: kurtabersold.freeswitch
+- src: https://github.com/kurtabersold/freeswitch-mw.git
+  version: master
+  name: kurtabersold.freeswitch
 
 # from github
-#- src: https://github.com/kurtabersold/freeswitch-config.git
-#  version: master
-#  name: kurtabersold.freeswitch-config
+- src: https://github.com/kurtabersold/freeswitch-config.git
+  version: master
+  name: kurtabersold.freeswitch-config
 
