@@ -23,7 +23,7 @@ If you don't already have vagrant and ansible installed, do that.
 
 ## Override Ansible variables
 
-See [provisioning/vars/README.md](provisioning/vars/README.md)
+See [provisioning/vars/](provisioning/vars/)
 
 
 ## Start VPS
