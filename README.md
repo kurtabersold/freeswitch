@@ -23,7 +23,7 @@ If you don't already have vagrant and ansible installed, do that.
 
 ## Override Ansible variables
 
-If you don't you aren't going to have a functional freeswitch. More on this soon.
+See [provisioning/vars/](provisioning/vars/)
 
 
 ## Start VPS
