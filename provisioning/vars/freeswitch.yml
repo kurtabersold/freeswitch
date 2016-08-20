@@ -19,3 +19,23 @@ inbound_did:
     did01:
       number: "freeswitch_vault_{{ inbound_did.flowroute.did01.number }}"
       extension: "freeswitch_vault_{{ inbound_did.flowroute.did01.extension }}"
+
+users:
+  default:
+    password: "freeswitch_vault_{{ users.default.password }}"
+    vm_pass:  "freeswitch_vault_{{ users.default.vm_pass }}"
+  1000:
+    password: "freeswitch_vault_{{ users.1000.password }}"
+    vm_pass:  "freeswitch_vault_{{ users.1000.vm_pass }}"
+  1001:
+    password: "freeswitch_vault_{{ users.1001.password }}"
+    vm_pass:  "freeswitch_vault_{{ users.1001.vm_pass }}"
+  1002:
+    password: "freeswitch_vault_{{ users.1002.password }}"
+    vm_pass:  "freeswitch_vault_{{ users.1002.vm_pass }}"
+  1003:
+    password: "freeswitch_vault_{{ users.1003.password }}"
+    vm_pass:  "freeswitch_vault_{{ users.1003.vm_pass }}"
+  1004:
+    password: "freeswitch_vault_{{ users.1004.password }}"
+    vm_pass:  "freeswitch_vault_{{ users.1004.vm_pass }}"

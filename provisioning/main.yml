@@ -14,6 +14,6 @@
   roles:
     - { role: jgrowl.ddclient }
     - { role: kurtabersold.letsencrypt }
-    - { role: kurtabersold.freeswitch }
+#    - { role: kurtabersold.freeswitch }
 #    - { role: freeswitch, tags: [ 'build' ] } # Update with git src
     - { role: kurtabersold.freeswitch-config }

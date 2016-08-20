@@ -1,0 +1,41 @@
+---
+
+# Use Flowroute at a SIP gateway
+# https://freeswitch.org/confluence/pages/viewpage.action?pageId=2883692
+# https://support.flowroute.com/customer/en/portal/articles/2205573-freeswitch---add-flowroute-as-sip-gateway
+
+credentials:
+  default:
+    password: "4321"
+
+gateway:
+  flowroute:
+    auth_username: "Tech_Prefix"
+    password: "Password"
+    proxy: "Proxy Address"
+
+inbound_did:
+  flowroute:
+    did01:
+      number: "+18005551212"
+      extension: "1001"
+
+users:
+  default:
+    password: "4321"
+    vm_pass:  "4321"
+  1000:
+    password: "4321"
+    vm_pass:  "4321"
+  1001:
+    password: "4321"
+    vm_pass:  "4321"
+  1002:
+    password: "4321"
+    vm_pass:  "4321"
+  1003:
+    password: "4321"
+    vm_pass:  "4321"
+  1004:
+    password: "4321"
+    vm_pass:  "4321"
